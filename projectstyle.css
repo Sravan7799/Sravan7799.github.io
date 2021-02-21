@@ -1,0 +1,130 @@
+*
+{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(myproject@2.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: rgb(157, 100, 0);
+   
+    font-family: sans-serif;
+
+}
+.menu-bar
+{
+    background: rgb(0,100,95);
+    text-align: center;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   list-style: none;
+   color:chartreuse; 
+}
+.menu-bar ul li
+{
+    width: 150px;
+    margin:15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.active, .menu-bar ul li:hover
+{
+   background: #3fab0d;
+   border-radius: 4px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: rgb(169, 169, 169);
+}
+.fa-angle-right
+{
+    float:right;
+}
+
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.search
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input
+{
+    border: 3px solid #3fab0d;
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    padding: 0px 10px;
+
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    border-radius:25% ;
+    position: relative;
+    top:5px ;
+    
+    background-color: rgb(210 248 140));
+}
+h1{
+    text-align: center;
+    margin-top: 95px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}

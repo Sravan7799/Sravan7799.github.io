@@ -8,7 +8,6 @@
 body
 {
     background-image: url(myproject@2.jpg);
-    background-size: cover;
     background-position: center;
     backdrop-filter: rgb(157, 100, 0);
    

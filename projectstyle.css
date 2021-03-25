@@ -9,9 +9,10 @@ body
 {
     background-image: url(myproject@2.jpg);
     background-position: center;
+    background-size:cover;
     backdrop-filter: rgb(157, 100, 0);
     font-family: sans-serif;
-    float= none;
+    float: none;
 
 }
 .menu-bar
